@@ -8,6 +8,10 @@ const numberTwo = "2.30";
 // you cannot touch line 1 neither line 2
 const addedNumbers = Number(numberOne) + Number(numberTwo);
 
+// const result = Number(numberOne) + Number(numberTwo);
+//
+// console.log(result);
+
 console.log(addedNumbers);
 
 // --------------------------------------
@@ -50,6 +54,9 @@ const findCAnotherWay = letters[2];
 console.log(findTheC);
 
 
+console.log(letters.charAt(2));
+
+console.log(letters.substr(2, 1));
 
 // --------------------------------------
 // Exercise 7 - Replace
@@ -59,6 +66,7 @@ const fact = "You are learning javascript!";
 // capitalize the J in Javascript
 
 console.log(fact.replace("j", "J"));
+
 // --------------------------------------
 
 
