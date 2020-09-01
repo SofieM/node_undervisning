@@ -6,7 +6,9 @@ const numberTwo = "2.30";
 
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
+const addedNumbers = Number(numberOne) + Number(numberTwo);
 
+console.log(addedNumbers);
 
 // --------------------------------------
 
@@ -17,6 +19,10 @@ const numberTwo = "2.30";
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
 
+const addedNumbersTwo = (Number(anotherNumberOne) + Number(anotherNumberTwo)).toFixed(2);
+
+console.log(addedNumbersTwo);
+
 
 // --------------------------------------
 // Exercise 5 - Decimals and average
@@ -26,7 +32,8 @@ const two = 45;
 const three = 98;
 
 // Show in the console the avg. with 5 decimals
-
+const average = ((one + two + three)/3).toFixed(5);
+console.log(average);
 
 
 
@@ -37,6 +44,10 @@ const three = 98;
 const letters = "abc";
 // Get me the character "c"
 
+const findTheC = letters.charAt(2);
+const findCAnotherWay = letters[2];
+
+console.log(findTheC);
 
 
 
@@ -47,7 +58,7 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-
+console.log(fact.replace("j", "J"));
 // --------------------------------------
 
 
