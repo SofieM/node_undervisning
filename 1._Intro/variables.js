@@ -14,6 +14,14 @@ let name = "Anders";
 const myObj = {
     key: "value"
 };
+const fruits = [1, 2, "apple", "banana"];
+
+fruits.push("pear");
+fruits.pop();
+fruits.pop();
+
+console.log(fruits[0]);
+
 
 
 
